@@ -40,3 +40,95 @@ nav li a:hover{
 .navBtn:hover{
     color: blue;
 }
+.info{
+	display: grid;
+	grid-gap: 2.5em;
+	background-image: linear-gradient(to bottom right, grey,silver,white);
+	height: 600px;
+	background-repeat: no-repeat;
+	
+}
+.top{
+	padding-top: 100px;
+	text-align: center;
+	align-items: center;
+}
+.toptext{
+	text-align: center;
+}
+.text-box{
+	font-family: 'Noto Sans JP', sans-serif;
+	width :400px;
+	margin:0 auto;
+	
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-auto-rows: minmax(100px,auto);
+
+  /*
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  */
+  grid-gap: 1em;
+}
+.wrapper > div{
+    background: #eee;
+    padding: 1em;
+
+}
+.wrapper > div:nth-child(odd){
+	background-color: #ddd;
+}
+.nested{
+	display: grid;
+	grid-template-columns: repeat( 3 ,1fr);
+    grid-auto-rows: minmax(100px,auto);
+	grid-gap: 1em;
+
+}
+.nested > div{
+	border: black 1px solid;
+    padding: 1em;
+}
+.nested p{
+	text-align: center;
+}
+.nested div:hover{
+	color:white ;
+	background-color:black ;
+}
+.den{
+	text-align: center;
+	padding-top: 150px;
+	text-transform: uppercase;
+  
+ 
+}
+.wrapper2{
+	  display: table;
+     
+	
+	
+
+}
+
+form{
+	position: absolute;
+	left: 50%;
+	
+}
+
+legend{
+	text-align: center;
+}
+button,input{
+	box-sizing: border-box;
+	
+}
+input{
+	width: 250px;
+	height: 40px;
+}
+
