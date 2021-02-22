@@ -125,16 +125,18 @@
 	<div class="wrapper2">
 		
          <div id="align">
-		<form id="form">
+		<form id="form" onsubmit="">
 			<fieldset>
-				<legend>User Details</legend>
-			    <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" ><br><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname"><br><br>
-			    <label for="birthday">Birthday:</label><br>
-                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="number " id="year" value=""required placeholder="Year of Birth">
+                <input type="number " id="year" value=""required placeholder="Month of Birth">
+                <input type="number " id="year" value=""required placeholder="Day of Birth">
+                <input type="radio" id="male"  class="radioBtn"    name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" class="radioBtn" value="female">
+                <label for="female">Female</label><br>
+
                 <input type="submit" value="Submit" id="subbtn">
+
              </fieldset>
 		</form>	
 		</div>
