@@ -43,6 +43,36 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 
     ];
 
+    switch(gender === 'male'){
+         
+        case 0:  console.log("Sunday: Kwasi");
+                break;
+
+        case 1:  console.log("Monday: Kwadwo",);                 
+                break;
+
+        case 2:     console.log("Tuesday: Kwabena");              
+                break;
+
+        case 3:  console.log("Wednesday: Kwaku");                 
+                break;
+
+        case 4: console.log("Thursday:  Yaw");                  
+                break;
+
+        case 5:   console.log("Friday: Kofi");               
+                break;
+
+        case 6:    console.log( "Saturday: Kwame" );               
+                break;
+
+
+
+ }
+
+
+
+ 
 
 
 
