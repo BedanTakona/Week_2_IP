@@ -2,6 +2,7 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
     e.preventDefault();
     var date = document.getElementById('date').value;
     var gender = document.getElementById('gender').value;
+    
 
 
     var Males[
@@ -21,7 +22,7 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
         "Saturday: Kwame" 
 
     ];
-
+    
     var Females[
 
         "Sunday: Akosua",
@@ -42,36 +43,8 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 
     ];
 
-    switch(gender === 'male'){
-         
-        case 0:                   ;
-                break;
-
-        case 0:                   ;
-                break;
-
-         case 0:                   ;
-                break;
-
-         case 0:                   ;
-                break;
-
-        
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    }
 
 
 
