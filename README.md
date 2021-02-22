@@ -33,7 +33,8 @@ This project is a personal portfolio. It contains:
 ### USER INTERACTION
 
 1. Access the landing page by clicking the home tab on the navigation bar.
-2. Scroll down to view the portfolio information.
+2. Scroll down to the form a the bttom of the page.
+3. Input the required details into the form and the application will output your Akan name. 
 
 
 ### TECHNOLOGIES USED
