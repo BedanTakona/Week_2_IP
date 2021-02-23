@@ -80,4 +80,4 @@ SOFTWARE.
 
 ### LINK TO LIVE SITE ON GITHUB PAGES
 
-https://bedantakona.github.io/Moringa_week_1/
+https://github.com/BedanTakona/Week_2_IP.git
