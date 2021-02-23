@@ -3,9 +3,10 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
     var date = document.getElementById('date').value;
     var gender = document.getElementById('gender').value;
     
+    var d1 = new Date(date);
+    var bday = d1.getDay();
 
-
-    var Males[
+    var Males = new Array(
 
         "Sunday: Kwasi",
 
@@ -21,9 +22,9 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 
         "Saturday: Kwame" 
 
-    ];
+    );
     
-    var Females[
+    var Females = new Array(
 
         "Sunday: Akosua",
 
@@ -41,29 +42,29 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 
 
 
-    ];
+    );
 
     switch(gender === 'male'){
-         
-        case 0:  console.log("Sunday: Kwasi");
+          
+        case d1 == 0:  document.getElementById('result').innerHTML = Males[0];
                 break;
 
-        case 1:  console.log("Monday: Kwadwo",);                 
+        case d1 == 1:  console.log("Monday: Kwadwo",);                 
                 break;
 
-        case 2:     console.log("Tuesday: Kwabena");              
+        case d1 == 2:     console.log("Tuesday: Kwabena");              
                 break;
 
-        case 3:  console.log("Wednesday: Kwaku");                 
+        case d1 == 3:  console.log("Wednesday: Kwaku");                 
                 break;
 
-        case 4: console.log("Thursday:  Yaw");                  
+        case d1 == 4: console.log("Thursday:  Yaw");                  
                 break;
 
-        case 5:   console.log("Friday: Kofi");               
+        case d1 == 5:   console.log("Friday: Kofi");               
                 break;
 
-        case 6:    console.log( "Saturday: Kwame" );               
+        case d1 == 6:    console.log( "Saturday: Kwame" );               
                 break;
 
 
@@ -137,4 +138,4 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 
 
 
-
+)
