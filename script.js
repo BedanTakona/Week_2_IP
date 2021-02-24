@@ -47,25 +47,25 @@
     switch(gender === 'Male'){
           
         case bday == 0:  document.getElementById('result').innerHTML = Males[0];
-                break;
+                         break;
 
-        case bday == 1: document.getElementById('result').innerHTML = Males[1];        
-                break;
+        case bday == 1:  document.getElementById('result').innerHTML = Males[1];        
+                         break;
 
-        case bday == 2:     console.log("Tuesday: Kwabena");              
-                break;
+        case bday == 2:  document.getElementById('result').innerHTML = Males[2];              
+                         break;
 
-        case bday == 3:  console.log("Wednesday: Kwaku");                 
-                break;
+        case bday == 3:  document.getElementById('result').innerHTML = Males[3];                 
+                         break;
 
-        case bday == 4: console.log("Thursday:  Yaw");                  
-                break;
+        case bday == 4:  document.getElementById('result').innerHTML = Males[4];                  
+                         break;
 
-        case bday == 5:   console.log("Friday: Kofi");               
-                break;
+        case bday == 5:  document.getElementById('result').innerHTML = Males[5];                
+                         break;
 
-        case bday == 6:    console.log( "Saturday: Kwame" );               
-                break;
+        case bday == 6:  document.getElementById('result').innerHTML = Males[6];               
+                         break;
 
 
 
@@ -75,26 +75,26 @@
 
     switch(gender === 'Female'){
          
-        case bday == 0: document.getElementById('result').innerHTML = Females[0];
-                 break;
+        case bday == 0:  document.getElementById('result').innerHTML = Females[0];
+                         break;
 
-        case bday == 1:  console.log("Monday: Kwadwo",);                 
-                 break;
+        case bday == 1:  document.getElementById('result').innerHTML = Females[1];              
+                         break;
 
-        case bday == 2:     console.log("Tuesday: Kwabena");              
-                 break;
+        case bday == 2:  document.getElementById('result').innerHTML = Females[2];           
+                         break;
  
-        case bday == 3:  console.log("Wednesday: Kwaku");                 
-                 break;
+        case bday == 3:  document.getElementById('result').innerHTML = Females[3];              
+                         break;
 
-        case bday == 4: console.log("Thursday:  Yaw");                  
-                 break;
+        case bday == 4:  document.getElementById('result').innerHTML = Females[4];       
+                         break;
 
-        case bday == 5:   console.log("Friday: Kofi");               
-                 break;
+        case bday == 5:  document.getElementById('result').innerHTML = Females[5];       
+                         break;
 
-        case bday == 6:    console.log( "Saturday: Kwame" );               
-                 break;
+        case bday == 6:  document.getElementById('result').innerHTML = Females[6];
+                         break;
 
 
 
