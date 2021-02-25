@@ -107,6 +107,11 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 
 
 }
+if(gender !== 'Male' && gender!== 'Female'){
+    document.getElementById('result').innerHTML = "Invalid gender input";
+    
+}
+
 
 
 
@@ -116,4 +121,5 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 }
 
 )
+
 
