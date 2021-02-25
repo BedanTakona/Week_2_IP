@@ -1,4 +1,4 @@
- document.getElementById('subbtn').addEventListener('click', function getName(e){
+document.getElementById('subbtn').addEventListener('click', function getName(e){
     e.preventDefault();
     var date = document.getElementById('date').value;
     var gender = document.getElementById('gender').value;
@@ -66,6 +66,10 @@
 
         case bday == 6:  document.getElementById('result').innerHTML = Males[6];               
                          break;
+        
+
+               default:  document.getElementById('result').innerHTML = "Error";
+                         break;
 
 
 
@@ -95,6 +99,10 @@
 
         case bday == 6:  document.getElementById('result').innerHTML = Females[6];
                          break;
+                         
+                         
+               default:  document.getElementById('result').innerHTML = "Error";
+                         break;
 
 
 
@@ -104,38 +112,8 @@
 
 
 
+
 }
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 )
+
