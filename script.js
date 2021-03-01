@@ -1,7 +1,9 @@
 document.getElementById('subbtn').addEventListener('click', function getName(e){
     e.preventDefault();
     var date = document.getElementById('date').value;
-    var gender = document.getElementById('gender').value;
+
+    var Male = document.querySelector("#rd1").checked;
+    var Female = document.querySelector("#rd2").checked;
     
     var bday = new Date(date);
     var bday = bday.getDay();
@@ -44,7 +46,7 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 
     );
 
-    switch(gender === 'Male'){
+    switch(Male == true){
           
         case bday == 0:  document.getElementById('result').innerHTML = Males[0];
                          break;
@@ -77,7 +79,7 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 
 
 
-    switch(gender === 'Female'){
+    switch(Female == true){
          
         case bday == 0:  document.getElementById('result').innerHTML = Females[0];
                          break;
@@ -107,10 +109,7 @@ document.getElementById('subbtn').addEventListener('click', function getName(e){
 
 
 }
-if(gender !== 'Male' && gender!== 'Female'){
-    document.getElementById('result').innerHTML = "Invalid gender input";
-    
-}
+
 
 
 
