@@ -5,11 +5,7 @@
 # BEDAN TAKONA
 
 ## PROJECT DESCRIPTION
-This project is a personal portfolio. It contains:
- 
- * _A landing page_
- * _A personal description_
- * _A photo of me_
+This project is an akan name generator. It contains a form for inputting details after which one is assigned an akan name. 
  
 ### PROJECT SET UP INSTRUCTIONS
 * _INSTALLATION_
@@ -33,7 +29,7 @@ This project is a personal portfolio. It contains:
 ### USER INTERACTION
 
 1. Access the landing page by clicking the home tab on the navigation bar.
-2. Scroll down to the form a the bttom of the page.
+2. Scroll down to the form a the bpttom of the page.
 3. Input the required details into the form and the application will output your Akan name. 
 
 
