@@ -76,4 +76,4 @@ SOFTWARE.
 
 ### LINK TO LIVE SITE ON GITHUB PAGES
 
-https://github.com/BedanTakona/Week_2_IP.git
+https://bedantakona.github.io/Week_2_IP/
